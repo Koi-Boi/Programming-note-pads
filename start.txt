@@ -1,0 +1,9 @@
+import java.util.Scanner;
+
+/**
+ * Created by Aavin on 2017-01-12.
+ */
+public class Random {
+    public static Scanner scanner;
+
+    public static void main(String args[]) {

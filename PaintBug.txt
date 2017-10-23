@@ -1,0 +1,9 @@
+import hsa.paintbug;
+public class paintBugOne {
+    public Static void main(String[]args) {
+        PaintBug.drawGrid();
+        PaintBug bug = new PaintBug();
+        bug.move(100);
+        bug.turnLeft(90);
+    }
+}
