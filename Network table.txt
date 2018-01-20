@@ -1,15 +1,14 @@
-network tables are used to automaticaly input values into something without pushing code all the time.
-How to setup a network table:
-go to just under class define 
-type public NetworkTable table = NetworkTable.getTable("Name it")
-Go to robot init
-to set variables do table.putNumber("key name", put the input)
-Goto .wpilib folder
-open tools
-open outline viewer.jar
-set the host to the robo ip adress (roborio-4976-frc.local)
-click start client
-open root/whatever you named the table
-you will see all of your variables
-to set a variable enter it inthe number slot
-to get a value from the table use table.getNumber("Key", backup value)
+    private NetworkTableInstance instance = NetworkTableInstance.getDefault();
+    NetworkTable table = instance.getTable("Values");
+    NetworkTableEntry Speed = table.getEntry("Speed");
+
+
+Agitator.addEntryListener((TableEntryListener) (source, key, value, isNew, flags) -> {
+			System.out.println("<Agitator> " + key + " was changed: " + value);
+
+			targetCurrent = getKey(table, "Target Current (MILLI AMPS)", 10000);
+			reverseSpeed = getKey(table, "Target Reversed Speed (%)", 1.0);
+
+			runListener();
+		
+        }, 0);

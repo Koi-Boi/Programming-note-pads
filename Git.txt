@@ -10,18 +10,26 @@ git init
 	initilizez git
 git status
 	see the status
-git add (name)
-	stops ignoreing file
+git add (name)/*
+	stops ignoreing file/all
 git commit -m "(message)"
-	commits something
+	commits something for first time
 touch (name)
 	creats file
-git push
+git push origin branch
 	pushes it to git
 git rm (name)
 	removes file
 git --help
 	shows more commands
+git commit ""
+	Makes a commit
+git checkout -b Branch name Origin branch
+	makes new branch
+git checkout branch name
+	changes branch
+git merge Branch name
+	-merges the branch into current branch
 
 
 echo "# Programming-note-pads" >> README.md
