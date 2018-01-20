@@ -1,0 +1,14 @@
+    private NetworkTableInstance instance = NetworkTableInstance.getDefault();
+    NetworkTable table = instance.getTable("Values");
+    NetworkTableEntry Speed = table.getEntry("Speed");
+
+
+Agitator.addEntryListener((TableEntryListener) (source, key, value, isNew, flags) -> {
+			System.out.println("<Agitator> " + key + " was changed: " + value);
+
+			targetCurrent = getKey(table, "Target Current (MILLI AMPS)", 10000);
+			reverseSpeed = getKey(table, "Target Reversed Speed (%)", 1.0);
+
+			runListener();
+		
+        }, 0);
