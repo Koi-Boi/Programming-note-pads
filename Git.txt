@@ -22,8 +22,6 @@ git rm (name)
 	removes file
 git --help
 	shows more commands
-git commit ""
-	Makes a commit
 git checkout -b Branch name Origin branch
 	makes new branch
 git checkout branch name
