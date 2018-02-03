@@ -1,4 +1,0 @@
-import java.util.Scanner;
-Scanner scanner = new Scanner(System.in);
-  public static Scanner scanner;
-  namePlayer = scanner.next();

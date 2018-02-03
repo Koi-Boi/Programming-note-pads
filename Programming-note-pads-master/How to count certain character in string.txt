@@ -1,1 +1,0 @@
-STIRNG.length()-STRING.replaceAll("CHARACTER","").length();

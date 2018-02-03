@@ -1,6 +1,0 @@
-How to connect to the robo rio
-download bonjour
-ste the ipv4 to n
-10.49.76.200
-255.255.255.0
-change to connect to wifi after

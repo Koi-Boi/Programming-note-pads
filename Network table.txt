@@ -1,6 +1,8 @@
     private NetworkTableInstance instance = NetworkTableInstance.getDefault();
     NetworkTable table = instance.getTable("Values");
     NetworkTableEntry Speed = table.getEntry("Speed");
+    Speed.getDouble(0);
+    Speed.setDouble(5);
 
 
 Agitator.addEntryListener((TableEntryListener) (source, key, value, isNew, flags) -> {

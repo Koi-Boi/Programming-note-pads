@@ -1,4 +1,0 @@
-PID CONTROLL:
-go to the bottom of the code and make a new class named  PIDOutputs
-go under class init
-type   public PIDController _(name)__ = new PIDController ((P value), (I value), (D value), (inputs, navX,encoder))

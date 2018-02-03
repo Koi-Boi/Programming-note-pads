@@ -1,2 +1,0 @@
-char[] charArray = string.toCharArray();
-Makes each character its own slot in array

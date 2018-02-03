@@ -1,2 +1,0 @@
-String[] NAME = STRING.split("\\s+");
-NAME [0]

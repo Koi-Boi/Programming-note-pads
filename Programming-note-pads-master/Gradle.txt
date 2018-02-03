@@ -1,7 +1,0 @@
-Copy paste quik start into folder
-set directory to where files are found 
-put code in folders 
-src
-main
-java
-ca....

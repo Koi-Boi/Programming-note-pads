@@ -1,3 +1,0 @@
-STRING.matches(".*\\d+.*")
-
-(".*\\d+.*") is a thing that means number in it
