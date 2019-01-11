@@ -14,7 +14,6 @@
     public Boolean UP = new POV(0);
     public Boolean UP_RIGHT = new POV(45);
     public Boolean RIGHT = new POV(90);
-
     public Boolean DOWN_RIGHT = new POV(135);
     public Boolean DOWN = new POV(180);
     public Boolean DOWN_LEFT = new POV(125);
